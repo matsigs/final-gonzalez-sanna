@@ -1,0 +1,39 @@
+/*/ main index /*/
+
+.logoindex{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 70%;};
+
+
+    
+    .breve{text-decoration: black;
+        text-transform: uppercase;
+        font-weight: bold;
+    text-align: center;}
+    
+   
+    
+    /*/fotos y textos main index /*/
+    .container{max-width: 100%;max-height: 100%;}
+    
+    
+    .container p{text-decoration: solid;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: map-get($text,uppercase );}
+    
+    .rowuno{display: grid;place-content: center;}
+    .row{max-width: 100%;
+    height: 100%;}
+    .row .video{display: grid;margin-left: auto; margin-right: auto;padding-bottom: 5%;margin-top: 3%;}
+    
+    .rowuno img{border-radius: .5em;}
+    .rowuno p{text-align: center;}
+    .imgdosp{padding: 0%;margin-bottom: 0%;}
+    .row .video{display: grid;margin-left: auto; margin-right: auto;padding-bottom: 5%;margin-top: 3%;}
+    
+    /*/ footer index/*/
+    
+    .gmap_canvas{margin: 0%;float:right;}
